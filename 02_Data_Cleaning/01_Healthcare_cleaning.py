@@ -7,7 +7,7 @@ df = pd.read_excel("healthcare.xlsx")
 print(df.head())
 
 # Showing the information about the DataFrame
-print("\nColumn Info:")  # check this
+print("\nColumn Info:")  
 print(df.info())
 
 # Checking for missing values in each column
